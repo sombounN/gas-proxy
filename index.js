@@ -2,7 +2,7 @@ const express = require('express');
 const fetch = require('node-fetch');
 const app = express();
 
-const GOOGLE_SCRIPT_URL = 'YOUR_GOOGLE_SCRIPT_URL_HERE';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzB1Sj5PndlaVK_zE3gqbZLRCOwm-8o2ObkL4kk_cb__JGtC5Io5voPSIABIcpV85qz/exec';
 
 app.use(express.json());
 
